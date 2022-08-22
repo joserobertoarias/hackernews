@@ -1,0 +1,7 @@
+<div class="col-md-5">
+    <select [(ngModel)]="optionSelected" (change)="changeSelect($event)"  class="form-select form-select-md mb-3" aria-label=".form-select-lg">
+        <option value="" selected>Open this select menu</option>
+        <option *ngFor="let o of selectOptions">{{o}}</option>
+      </select>    
+</div>
+  

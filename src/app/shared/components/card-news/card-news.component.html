@@ -1,0 +1,19 @@
+<div class="col">
+    <div class="card">
+        <div class="row g-0">
+            <div class="col-md-10">
+                <div class="card-body" (click)="goToUrl(item.story_url)">
+                    <h5 class="card-title"><span><i class="fa-regular fa-clock"></i></span> create at <span>{{item.created_at}}</span> by <span>{{item.author}}</span></h5>
+                    <p class="card-text">{{item.story_title}}</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="text-center">
+                    <span class="hearth" (click)="save(item)" ><div *ngIf="item.myfave"><i class="fa-solid fa-heart"></i></div><div *ngIf="!item.myfave"><i class="fa-regular fa-heart"></i></div></span>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+    
