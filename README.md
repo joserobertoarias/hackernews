@@ -1,4 +1,4 @@
-# Hackernewsapp
+# Hackernews Angular App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
@@ -22,3 +22,7 @@ FUNCTIONALITY
 ● Clicking on the “like button” should not trigger the opening of the post URL link
 ● When hovering on the row, apply opacity to the entire row and its children (texts,
 icons, like button, etc)
+
+[![image_1](https://github.com/joserobertoarias/hackernews/blob/b41ddca6f9236d228e8ca4fc3d39872335198132/src/assets/Screenshot_1.jpg)]
+
+[![image_2](https://github.com/joserobertoarias/hackernews/blob/b41ddca6f9236d228e8ca4fc3d39872335198132/src/assets/Screenshot_2.jpg)]
