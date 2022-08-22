@@ -9,12 +9,14 @@ import { MenuComponent } from './components/menu/menu.component';
 
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MainPageComponent } from './components/main-page/main-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuComponent,
+    MainPageComponent,
   ],
   imports: [
     BrowserModule,
