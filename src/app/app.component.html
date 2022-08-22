@@ -1,6 +1,11 @@
 <app-header></app-header>
 <div class="container">
   <router-outlet>
-    <span class="loader" *ngIf="loading"></span>
+
+    <div id="loader">
+      <div class="loader" *ngIf="loading"></div>
+    </div>
+    
   </router-outlet>
+
 </div>
